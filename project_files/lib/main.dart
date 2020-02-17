@@ -14,8 +14,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: Color.fromRGBO(235, 245, 245, 1.0),
         primaryColor: Color.fromRGBO(235, 100, 100, 1.0),
+        primaryColorLight: Colors.amber,
       ),
-      home: LandingScreen(),
+      home: Error404Screen(),
     );
   }
 }
