@@ -15,6 +15,7 @@ class Error404Screen extends StatelessWidget {
                 fontSize: 30.0,
                 fontWeight: FontWeight.w600,
               ),
+              textAlign: TextAlign.center,
             ),
             Image(
               height: 300.0,
@@ -29,6 +30,7 @@ class Error404Screen extends StatelessWidget {
                 fontWeight: FontWeight.w600,
                 color: Theme.of(context).primaryColor,
               ),
+              textAlign: TextAlign.center,
             ),
             InkWell(
               onTap: () {
